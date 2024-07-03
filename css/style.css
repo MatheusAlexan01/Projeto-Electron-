@@ -1,0 +1,61 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./WhatsApp\ Image\ 2024-07-02\ at\ 15.37.30.jpeg); 
+    background-size: cover;
+    color: #333; /* Cor do texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo principal */
+#principal {
+    background-color:transparent; /* Fundo branco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #4CAF50; /* Cor do título */
+}
+
+/* Estilo do botão */
+button.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #17a2b8; /* Cor da borda */
+    border-radius: 5px;
+    background-color: #17a2b8;
+    color: #2244dd; /* Cor do texto */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button.btn:hover {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+button.btn:focus {
+    outline: none;
+}
+
+button.btn:active {
+    background-color: #138496;
+    border-color: #117a8b;
+}

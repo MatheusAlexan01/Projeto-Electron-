@@ -1,0 +1,57 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(166,197,218); /* Cor de fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: rgb(202,219,229); /* Fundo branco para o container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 600px;
+    width: 100%;
+    text-align: center; /* Centraliza o texto */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.6; /* Espaçamento entre linhas */
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+ol, ul {
+    text-align: left; /* Alinha o texto à esquerda dentro de listas */
+    margin-left: 20px;
+    margin-bottom: 15px;
+    line-height: 1.6; /* Espaçamento entre linhas */
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+br {
+    margin-bottom: 10px;
+}
